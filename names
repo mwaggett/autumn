@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+adjectives = [
+  'cutie',
+  'squeaky',
+  'pretty',
+  'baby',
+]
+
+nouns = [
+  'face',
+  'pants',
+  'one',
+  'girl',
+]
+
+name = "#{adjectives.sample} #{nouns.sample}"
+
+puts name
